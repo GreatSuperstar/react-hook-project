@@ -7,8 +7,7 @@ const Index = () => {
 
   return (
     <main className={styles.main}>
-      <h1>Create, Inc. Store</h1>
-      {/** @TODO: Not implemented */}
+      
     </main>
   );
 };
