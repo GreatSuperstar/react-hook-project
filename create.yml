@@ -1,0 +1,12 @@
+repoOwner: Create-Inc-Candidates
+learnMoreLink: https://create.xyz
+config:
+  version: 1.0.0
+projectName: Coding Assessment RieserStern
+abbreviatedProjectName: codingAssessmentRieserStern
+repoName: coding-assessment-rieserstern
+environments: []
+stack:
+  - features: []
+    kind: CodingAssessment
+    path: .
