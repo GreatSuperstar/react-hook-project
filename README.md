@@ -7,6 +7,7 @@
 - [Yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable)
 
 ## Editor Setup
+
 - [ESLint/Prettier](https://eslint.org/docs/user-guide/integrations#editors)
 
 # Instructions
@@ -36,7 +37,8 @@ The client has specified the following UI requirements:
 - Bonus: While the buy request is running, inform the user.
 
 #### Styling
-This does not need to be a beautifully styled app. The focus is on the other aspects of the implementation. That said, feel free to use css, scss, or tailwind (whatever you're most comfortable with) in this setup to style the frontend.  
+
+This does not need to be a beautifully styled app. The focus is on the other aspects of the implementation. That said, feel free to use css, scss, or tailwind (whatever you're most comfortable with) in this setup to style the frontend.
 
 ### Mock Backend
 
@@ -49,6 +51,7 @@ The mock backend is implemented inside `src/mock-backend/index.ts`. You are resp
 NOTE: the buy function includes a `sleep` function call. This is included to mimic the behavior of an API. Please do not remove it.
 
 ### Running the App
+
 This app runs on [Next.js](https://nextjs.org/), but the necessary scripts from this assignment are all available via yarn:
 
 | Command     | Description                                                |
@@ -63,6 +66,9 @@ Once you run `yarn dev`, the app will be running at `localhost:3000`.
 Once you are finished, open a pull request into the `main` branch from the branch with your changes and email `hello@create.xyz` (this routes to `dhruv@create.xyz` and `marcus@create.xyz`).
 
 ## Troubleshooting
+
 If you run into any issues around getting the project setup, email or ping `dhruv@create.xyz` or `marcus@create.xyz`.
 
-"# react-hook-project" 
+"# react-hook-project"
+
+# react-hook-project
