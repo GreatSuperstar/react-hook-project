@@ -7,7 +7,7 @@ import Router from 'next/router';
 const Index = () => {
   const { items, buy } = useCheckout();
   const handleClick = ()=>{
-    Router.push("/");
+    Router.push("/"); // This is action to call page like (link path="/" ) in react-next.
   }
   return (
     <main className={styles.main}>
