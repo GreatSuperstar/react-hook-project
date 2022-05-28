@@ -1,13 +1,33 @@
 body {
   font-family: sans-serif;
   padding: 20px;
-  background-color: aquamarine;
+  background-color: white;
 }
 
 .card-body {
   border: 1px solid black;
   width: 250px;
+  height: 300px;
   float:left;
   margin-right: 10px;
   margin-bottom: 20px;
+  padding: 10px;
+}
+
+.card-body {
+  overflow: hidden;
+  border: none;
+  background-color: white;
+  box-shadow: 0 8px 18px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.card-body:hover {
+  transform: scale(1.02, 1.02);
+  box-shadow: 0 6px 13px 4px rgba(0, 0, 0, 0.3);
+}
+
+.w-100 {
+  width: 250px;
+  height:50px;
 }

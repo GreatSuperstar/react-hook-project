@@ -10,7 +10,7 @@ console.log(items);
     <main className={styles.main}>
       <Card />
       {
-        items.map((item) =><Card name={item.name} price={item.price} inventory={item.inventory} key={item.id}/>)
+        items.map((item) =><Card name={item.name} price={item.price} inventory={item.inventory} url={item.url} key={item.id}/>)
       }
     </main>
   );
