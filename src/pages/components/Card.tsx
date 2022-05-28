@@ -3,12 +3,12 @@ import React from 'react';
 const Card = ({name, price, inventory}) => {
 
   return (
-      <div>
+      <div className='card-body'>
           <h1>
               {name}
           </h1>
-          <h3>{price}</h3>
-          <p>{inventory}</p>
+          <h3>Price: {price}$</h3>
+          <p>Inventory: {inventory}</p>
           <button>Add cart</button>
       </div>
   );
